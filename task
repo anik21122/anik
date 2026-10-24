@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Login</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="signup.html">Create Account</a>
+    </nav>
+
+    <form>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" placeholder="Enter your password" required><br><br>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <p>Don't have an account? <a href="signup.html">Create one</a></p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Create Account</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter your name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" placeholder="Create a password" required><br><br>
+
+        <button type="submit">Create Account</button>
+    </form>
+
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+</body>
+</html>
+
+body {
+    background-color: #fff8dc;
+    color: #173f35;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+h1 {
+    color: #b99a35;
+}
+
+nav {
+    background-color: #174f43;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+form {
+    background-color: white;
+    padding: 25px;
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #d9c778;
+}
+
+input {
+    padding: 8px;
+    width: 90%;
+}
+
+button {
+    background-color: #174f43;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Book Your Stay</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <form>
+        <label>Your Name:</label><br>
+        <input type="text" placeholder="Enter your name" required><br><br>
+
+        <label>Check-in Date:</label><br>
+        <input type="date" required><br><br>
+
+        <label>Check-out Date:</label><br>
+        <input type="date" required><br><br>
+
+        <label>Number of Guests:</label><br>
+        <input type="number" min="1" value="2" required><br><br>
+
+        <button type="submit">Send Booking Request</button>
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jhore Jole Jongole</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jhore Jole Jongole</h1>
+    <p><b>A Heritage of Nature and Luxury</b></p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="signup.html">Create Account</a>
+        <a href="login.html">Login</a>
+        <a href="booking.html">Book Now</a>
+    </nav>
+
+    <h2>Welcome to the Sundarbans</h2>
+    <p>Enjoy nature, peaceful river views, and Bengali hospitality at our eco-friendly resort.</p>
+
+    <h2>What We Offer</h2>
+    <p>Eco-Friendly Stay | Forest Views | River Access | Beautiful Sunsets</p>
+
+    <p><a href="booking.html">Book your stay</a></p>
+</body>
+</html>
